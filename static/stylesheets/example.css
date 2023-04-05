@@ -2,6 +2,7 @@ body,.exampleBody {
   /* background-color: #2B2B2B; */
   background-color: #FFFFFF;
   background-image: url("/static/images/hero-bg.jpg");
+  background-size: cover;
 }
 
 #mainColumn{
