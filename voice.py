@@ -202,15 +202,15 @@ def voice():
         print("IBM Fuzzy partial score : " + str(fuzz.partial_ratio(random_words, recognised_words)))
         print("IBM Fuzzy score : " + str(fuzz.ratio(random_words, recognised_words)))       
 
-        ''''
-        if fuzz.ratio(random_words, recognised_words) < 65:
+    
+        if fuzz.ratio(random_words, recognised_words) < 10:
             print(
                 "\nThe words you have spoken aren't entirely correct. Please try again ...")
             os.remove(filename_wav)
             return "fail"
         else:
             pass
-        '''
+        
         print('flag',flag)
         if flag==1:
             

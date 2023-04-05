@@ -33,7 +33,7 @@
       }
     }
   }
-
+  document.getElementById("account-holder").innerHTML=JSON.parse(localStorage.getItem("currentuser")).name;
   /**
    * Easy on scroll event listener 
    */
