@@ -37,6 +37,9 @@
   document.getElementById("account-no").innerHTML=JSON.parse(localStorage.getItem("currentuser")).account;
   document.getElementById("username-id").innerHTML=JSON.parse(localStorage.getItem("currentuser")).username;
   document.getElementById("phone-no").innerHTML=JSON.parse(localStorage.getItem("currentuser")).mobile;
+  document.getElementById("emailid").innerHTML=JSON.parse(localStorage.getItem("currentuser")).email;
+  document.getElementById("phoneno-nav").innerHTML=JSON.parse(localStorage.getItem("currentuser")).mobile;
+  
 
   /**
    * Easy on scroll event listener 
